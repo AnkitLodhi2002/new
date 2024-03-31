@@ -1,0 +1,822 @@
+
+
+/* BESTSELLERS CSS */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: smaller;
+}
+.main_second{  
+    background-color:rgb(12, 12, 12) ;
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+
+.heading_bestsellers{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.second_slider {
+    width: 90%;
+    height: 400px;
+}
+.product_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.product_slides {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    
+}
+.product_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 275px;
+}
+.prev1 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+
+.next1{
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: rgb(253, 253, 253);
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.product_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.product_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.product_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+/* HOLI SPECIAL DEALS! CSS */
+
+
+.main_forth{
+    background-color:rgb(12, 12, 12);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_holi{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.forth_slider {
+    width: 90%;
+    height: 400px;
+}
+.holi_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.holi {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    
+}
+.holiproduct_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev2 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next2{
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+
+.holiproduct_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.holiproduct_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.holiproduct_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+/* HOT DEALS CSS */
+
+.main_five{
+    background-color: rgb(228, 214, 214);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_hotdeals{
+    color: black;
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.five_slider {
+    width: 90%;
+    height: 400px;
+}
+.hotdeals_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.hot_deals {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: auto;
+    
+}
+.hotdeals_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: auto;
+    width: 31%;
+}
+.prev3 {
+    position: absolute;
+    background-color: rgb(173, 173, 173);
+    color: red;
+    border: black;
+    height: 30px;
+    width: 30px;
+    right: 120px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.next3{
+    position: absolute;
+    background-color: rgb(173, 173, 173);
+    color: red;
+    border: black;
+    height: 30px;
+    width: 30px;
+    left: 120px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+
+.hotdeals_slide img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+/* JUST-IN CSS */
+
+
+.main_six{
+    -color:rgb(12, 12, 12);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_justIn{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.justIn_slider {
+    width: 90%;
+    height: 400px;
+}
+.just_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.justIn {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    
+}
+.justIn_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+
+.justIn_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.justIn_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.justIn_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+
+
+
+/* YOUTUBE VIDEO */
+.youtube_video {
+    width: 90%;
+    height: 400px;
+}
+.youtube_video img{
+    height: 400px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+/*  SUPER SAVES CSS*/
+
+.main_seven{
+    background-color:rgb(12, 12, 12);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_super{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.super_slider {
+    width: 90%;
+    height: 400px;
+}
+.supersaver_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.super {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    
+}
+.super_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next4 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+
+.super_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.super_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.super_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+/* TOP PICKS OF THE WEEK */
+
+
+.main_eight{
+    background-color: rgb(228, 214, 214);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_topicks{
+    height: 30px;
+    font-size: 25px;
+    color: black;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.eight_slider {
+    width: 90%;
+    height: 400px;
+}
+.toppicks_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.toppicks {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: auto;
+    
+}
+.toppicks_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: auto;
+    width: 31%;
+}
+.prev8 {
+    position: absolute;
+    background-color: rgb(173, 173, 173);
+    color: red;
+    border: black;
+    height: 30px;
+    width: 30px;
+    right: 90px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.next8{
+    position: absolute;
+    background-color: rgb(173, 173, 173);
+    color: red;
+    border: black;
+    height: 30px;
+    width: 30px;
+    left: 90px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+
+.toppicks_slide img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+
+/* SUGAR BEAUTY BLOG */
+
+
+.main_nine{
+    background-color: rgb(228, 214, 214);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_sugarBeauty{
+    color: black;
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nine_slider {
+    width: 90%;
+    height: 400px;
+}
+.sugarBeauty_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.sugarBeauty {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: auto;
+    
+}
+.sugarBeauty_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: auto;
+    width: 31%;
+}
+.prev9 {
+    position: absolute;
+    background-color: rgb(173, 173, 173);
+    color: red;
+    border: black;
+    height: 30px;
+    width: 30px;
+    right: 120px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+.next9{
+    position: absolute;
+    background-color: rgb(173, 173, 173);
+    color: red;
+    border: black;
+    height: 30px;
+    width: 30px;
+    left: 120px;
+    display: block;
+    margin-top: -20%;
+    border-radius: 100%;
+}
+
+.sugarBeauty_slide img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+
+
+/* SKINCARE BASICS CSS */
+
+
+.main_ten{
+    background-color:rgb(12, 12, 12);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_skincare{
+    height: 30px;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.skincare_slider {
+    width: 90%;
+    height: 400px;
+}
+.skin_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.skin {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    
+}
+.skin_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev10 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next10 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+
+.skin_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.skin_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.skin_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+/* MERCH STATION BASICS CSS */
+
+
+.main_merch{
+    
+    background-color: rgb(247, 246, 246);
+    height: auto;
+    width: 100%;
+    padding: 0px 0px 50px 0px;
+}
+.heading_merchStation{
+    height: 30px;
+    color: black;
+    font-size: 25px;
+    padding: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.merchStation_slider {
+    width: 90%;
+    height: 400px;
+}
+.merch_slider {
+    overflow: hidden;
+    height: 100%;
+}
+.merch {
+    display: flex;
+    transition: transform 0.5s ease;
+    height: 100%;
+    
+}
+.merch_slide {
+    flex: 0 0 auto;
+    margin: 20px;
+    height: 90%;
+    width: 278px;
+}
+.prev11 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    right: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.next11 {
+    position: absolute;
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 40px;
+    left: 30px;
+    display: block;
+    margin-top: -15%;
+    border-radius: 100%;
+}
+.image{
+    background-color: white;
+    gap: 40px;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    
+}
+.merch_slide img {
+    width: 60%;
+    border-radius: 10px;
+    margin-top: 5px;
+    
+}
+.merch_slide .product-details {
+    padding:15px 5px 5px 5px;
+    font-size: smaller;
+    
+}
+
+.merch_slide .product-details p {
+    margin-top: 5px;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    width: 50%;
+    height: 30px;
+    margin-top: 20px;
+    display: block;
+    padding: 10px 10px 0px 0px;
+}
+
+
+/* FOOTER */
+
+#inputEmail{
+    width: 60%;
+    height: 30px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px solid black;
+    
+}
+#footer_firstDiv{
+    background-color: rgb(247, 246, 246);
+    color: black;
+    height: 300px;
+}
+#footer_secondDiv>div>img{
+    height: 100px;
+}
+.fa{
+    padding: 10px;
+  font-size: 10px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  text-decoration: none;
+  margin: 20px 10px 20px 10px;
+  background-color: white;
+  border-radius: 100%;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+#GET{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+#App>div>img{
+    height: 40px;
+    background-color: black;
+}
+#AppDiv{
+    width: 60%;
+    display: flex;
+    margin: auto;
+    background-color: black;
+    justify-content: center;
+    
+}
+#footer{
+    background-color: black;
+}
+#App{
+    background-color: black;
+    
+}
+#navLink1{
+    justify-content: center;
+}
+#navLink1{
+    display: flex;
+    gap: 100px;
+    list-style: none;
+   
+}
+#navLink1>li>a{
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#GET>div>p>span{
+    text-decoration: none;
+    font-size: large;
+}
+#footer_firstDiv>b>span{
+    color: red;
+    font-size: large;
+}
